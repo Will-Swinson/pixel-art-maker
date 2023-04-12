@@ -14,6 +14,7 @@ const inputNum = document.querySelector(".inputNum");
 const colors = {};
 let num;
 let pixelSize;
+
 inputNum.addEventListener("change", function () {
   num = inputNum.value;
   // create value for grid layout

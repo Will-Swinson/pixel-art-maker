@@ -3,7 +3,15 @@ body {
   color: white;
   font-family: Bebas;
 }
-
+.text {
+  margin-left: 150px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 1000px;
+}
 .canvas {
   cursor: pointer;
   background-color: white;
